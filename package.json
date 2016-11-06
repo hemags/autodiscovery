@@ -1,22 +1,17 @@
 {
   "name": "autodiscovery",
   "version": "2.0.0",
-  "description": "New auto discovery tool",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hemags/autodiscovery.git"
-  },
-  "author": "Hemanth Babu GS",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hemags/autodiscovery/issues"
-  },
-  "homepage": "https://github.com/hemags/autodiscovery#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.14.0",
+    "jade": "~1.11.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
   }
 }
