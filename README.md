@@ -1,2 +1,2 @@
 # autodiscovery
-My new node app for aautodiscovery tool
+My new node app for autodiscovery tool
